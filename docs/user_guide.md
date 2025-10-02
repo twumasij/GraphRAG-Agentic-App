@@ -19,7 +19,7 @@ Before using the application, ensure you have:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/flight-network-analysis.git
+   git clone https://github.com/twumasij/GraphRag-Agentic-App/
    cd flight-network-analysis
    ```
 
