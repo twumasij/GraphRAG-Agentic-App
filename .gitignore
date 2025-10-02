@@ -1,0 +1,122 @@
+ # Environment and Configuration
+.env
+*.env
+.env.*
+config.local.yaml
+.venv
+venv/
+new_env/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Large Data Files
+data/*.dat
+data/*.csv
+data/*.pkl
+data/graph_networkx.pkl
+data/graph_nodes.csv
+data/graph_edges.csv
+data/airports.dat
+data/routes.dat
+data/airlines.dat
+*.pkl
+*.csv
+*.dat
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+.arangodb/
+
+# Logs and Monitoring
+*.log
+logs/
+llm_backend.log
+monitoring/
+*.out
+
+# Cache and Temporary Files
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.pytest_cache/
+*.so
+.Python
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_metadata
+HackathonNotebookTemplate.ipynb
+
+# Model Files and Weights
+models/
+*.model
+*.bin
+*.pt
+*.pth
+*.onnx
+.ollama/
+
+# Build and Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+*.tar.gz
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.db
+desktop.ini
+
+# Documentation Build
+docs/_build/
+docs/api/
+site/
+
+# Testing
+.coverage
+coverage.xml
+nosetests.xml
+.hypothesis/
+
+# Development Tools
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Local Development
+local_settings.py
+instance/
+.local/
+
+# Backup Files
+*.bak
+*.backup
+*~
+*.swp
+*.old
